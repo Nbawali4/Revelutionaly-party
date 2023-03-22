@@ -2136,16 +2136,16 @@ button,
     -moz-flex-shrink: 2;
     -webkit-flex-shrink: 2;
     -ms-flex-shrink: 2;
-    flex-shrink: 2;
+    flex-shrink: 6;
     display: inline-block;
     margin: 0 0 4em 2em;
     width: 0.45%; }
     #banner .image IMG {
       height: 100%;
-      -moz-object-fit: fill;
-      -webkit-object-fit: fill;
-      -ms-object-fit: fill;
-      object-fit: fill;
+      -moz-object-fit: scale-down;
+      -webkit-object-fit: scale-down;
+      -ms-object-fit: scale-down;
+      object-fit: scale-down;
       -moz-object-position: center;
       -webkit-object-position: center;
       -ms-object-position: center;
