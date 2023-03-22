@@ -2140,17 +2140,17 @@ button,
     display: inline-block;
     margin: 0 0 4em 2em;
     width: 0.45%; }
-    #banner .image IMG {
-      height: 100%;
-      -moz-object-fit: scale-down;
-      -webkit-object-fit: scale-down;
-      -ms-object-fit: scale-down;
-      object-fit: scale-down;
-      -moz-object-position: center;
-      -webkit-object-position: center;
-      -ms-object-position: center;
-      object-position: center;
-      width: 80%; }
+   #banner .image IMG {
+      height: 120%;
+      -moz-object-fit: none;
+      -webkit-object-fit: none;
+      -ms-object-fit: none ;
+      object-fit: fill;
+      -moz-object-position: 50% 50%;
+      -webkit-object-position: 50% 50%;
+      -ms-object-position: 50% 50%;
+      object-position: 50% 50%;
+      width: 99%; }
   @media screen and (orientation: portrait) {
     #banner {
       -moz-flex-direction: column-reverse;
