@@ -2139,7 +2139,7 @@ button,
     flex-shrink: 1;
     display: inline-block;
     margin: 0 0 4em 2em;
-    width:2%; }
+    width:2px }
     #banner .image IMG {
       height: 120%;
       -moz-object-fit: cover;
