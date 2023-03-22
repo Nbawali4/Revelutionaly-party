@@ -2136,10 +2136,10 @@ button,
     -moz-flex-shrink: 2;
     -webkit-flex-shrink: 2;
     -ms-flex-shrink: 2;
-    flex-shrink: 6;
+    flex-shrink: 1;
     display: inline-block;
     margin: 0 0 4em 2em;
-    width: 0.45%; }
+    width:2%; }
    #banner .image IMG {
       height: 120%;
       -moz-object-fit: none;
